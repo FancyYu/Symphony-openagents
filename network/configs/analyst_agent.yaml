@@ -4,8 +4,6 @@ agent_id: "analyst-agent"
 config:
   model_name: "qwen-plus"
   provider: "qwen"
-  api_key: "${QWEN_API_KEY}"
-  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   temperature: 0.8
   max_tokens: 1500
   react_to_all_messages: false

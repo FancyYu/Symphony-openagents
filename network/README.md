@@ -140,6 +140,7 @@ openagents network start .
 ```bash
 # 确保已设置环境变量
 export QWEN_API_KEY="your-qwen-api-key-here"
+#如果环境变量无法设置也可以直接将 daily_assistant_integrated.yaml中的api key替换成你的api key。
 
 # 启动 agent
 cd network/agents
@@ -254,12 +255,6 @@ config:
   temperature: 0.7
   max_tokens: 1000
 ```
-
-**注意：**
-
-- 不要在配置文件中硬编码 API Key
-- 使用 `${VARIABLE_NAME}` 语法引用环境变量
-- 确保在启动 agent 前已设置环境变量
 
 ### Network 配置
 
