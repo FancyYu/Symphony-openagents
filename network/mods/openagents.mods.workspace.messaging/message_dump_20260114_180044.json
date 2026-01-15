@@ -1,0 +1,871 @@
+{
+  "admin_1768314494593_o3rluhubz": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768314494593_o3rluhubz",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314494647_ofy2lfavw": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314494647_ofy2lfavw",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314494712_i4svmidra": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314494712_i4svmidra",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314502315_vy4y3jzdf": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314502315_vy4y3jzdf",
+    "timestamp": 1768314502,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314505979_vjbzuithu": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "admin",
+    "event_id": "admin_1768314505979_vjbzuithu",
+    "timestamp": 1768314505,
+    "source_type": "agent",
+    "destination_id": "agent:daily-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "direct_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "d50454f7-cc35-4345-8b6b-61db8ab5b7ac": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "d50454f7-cc35-4345-8b6b-61db8ab5b7ac",
+    "timestamp": 1768314557,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "quoted_message_id": "08a4cbfa-270d-43a1-a4fc-836fb8b4a0ef",
+      "content": {
+        "text": "Hello, how can I assist you today?"
+      },
+      "message_type": "direct_message",
+      "target_agent_id": "admin"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "8nTHjzOPH1SCihoMqiJUaJyE09Lw1SkRkmUDwb7FSuvu59v2bfwg7TraxFheAyNO",
+    "source_agent_group": "guest"
+  },
+  "admin_1768314770718_0a0q0yi98": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "admin",
+    "event_id": "admin_1768314770718_0a0q0yi98",
+    "timestamp": 1768314770,
+    "source_type": "agent",
+    "destination_id": "agent:daily-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u5e2e\u6211\u5206\u6790\u4e00\u4e0b"
+      },
+      "message_type": "direct_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768316005364_6ljvrdjvl": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768316005364_6ljvrdjvl",
+    "timestamp": 1768316005,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "Gl1xDX5SJLrqv2g5PvmChyzFaEZVq0ZEoaaAoVPoHOOlBcFCyN46iqtYEOJbKYqK",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384313777_wxfw7gh4n": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768384313777_wxfw7gh4n",
+    "timestamp": 1768384313,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384313845_d4w9b49yh": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768384313845_d4w9b49yh",
+    "timestamp": 1768384313,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384318667_6tf7y0ylh": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384318667_6tf7y0ylh",
+    "timestamp": 1768384318,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "3b25beee-a816-45ea-a374-d49b52d44e8c": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "3b25beee-a816-45ea-a374-d49b52d44e8c",
+    "timestamp": 1768384321,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "reply_to_id": "098d70a2-0866-4f83-a961-843c075eb0b8",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "Welcome to the general channel!"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "cdc0b3d3-bf5d-47f2-a398-52c50f288a11": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "cdc0b3d3-bf5d-47f2-a398-52c50f288a11",
+    "timestamp": 1768384321,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "1eaa220e-93da-4585-beea-1ed54fcca8a8": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "1eaa220e-93da-4585-beea-1ed54fcca8a8",
+    "timestamp": 1768384327,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "eb91d90c-941f-422f-9a82-5ba72779e066": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "eb91d90c-941f-422f-9a82-5ba72779e066",
+    "timestamp": 1768384332,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "I'm here to help!"
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384344431_70uj71o7n": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384344431_70uj71o7n",
+    "timestamp": 1768384344,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u7ecf\u5e38\u52a0\u73ed\u5230\u5f88\u665a\uff0c\u611f\u89c9\u5f88\u7126\u8651"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "ada6cae3-ec76-429e-aef5-ea8cec8e8c6b": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "ada6cae3-ec76-429e-aef5-ea8cec8e8c6b",
+    "timestamp": 1768384361,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "Sorry to hear that you're feeling anxious and overwhelmed by your work. Would you like to talk about what's going on and how I can support you?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest",
+    "quoted_message_id": null,
+    "quoted_text": null
+  },
+  "2cbdb449-25f9-436c-ae30-96c6d7dca82e": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "2cbdb449-25f9-436c-ae30-96c6d7dca82e",
+    "timestamp": 1768384384,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384393898_xzkjws2y4": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384393898_xzkjws2y4",
+    "timestamp": 1768384393,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u5728\u5417\uff1f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "f6774aa0-e606-407d-a0f8-f3fb44cf53e9": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "f6774aa0-e606-407d-a0f8-f3fb44cf53e9",
+    "timestamp": 1768384419,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Let's discuss some coping strategies that might help mitigate your stress and anxiety. I'd like to list some common strategies. Shall I go on?"
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384439444_crtpgyco4": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384439444_crtpgyco4",
+    "timestamp": 1768384439,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u53ef\u4ee5"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "a12a4596-95c4-4afc-889d-482e6f46dbe3": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "a12a4596-95c4-4afc-889d-482e6f46dbe3",
+    "timestamp": 1768384490,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "What's going on and how can I support you?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest",
+    "quoted_message_id": null,
+    "quoted_text": null
+  },
+  "admin_1768384502292_mjxbgqznh": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384502292_mjxbgqznh",
+    "timestamp": 1768384502,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "okay"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "ly0kJGDdPF3YC4Jy1gBYMd1W7e2YQqG3W5omT9hWaxyOUYRVRAtjuOHaXedDcdql",
+    "source_agent_group": "admin"
+  },
+  "1c92f8eb-5ee7-4616-88ba-c55eb7d803d0": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "1c92f8eb-5ee7-4616-88ba-c55eb7d803d0",
+    "timestamp": 1768384566,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "I understand that you're feeling overwhelmed. Let's take this conversation to a direct message so we can discuss this further privately."
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest",
+    "quoted_message_id": null,
+    "quoted_text": null
+  },
+  "32763333-d3cb-4025-adff-ea2873e46d26": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "32763333-d3cb-4025-adff-ea2873e46d26",
+    "timestamp": 1768384566,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Thanks for letting me know. Hopefully, we can help you find a way to manage your stress and anxiety."
+      },
+      "reply_to_id": "6b4a81eb-dc75-45a3-9959-04cfa9d39d76",
+      "quoted_message_id": "098d70a2-0866-4f83-a961-843c075eb0b8",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "quoted_text": "[Quoted message 098d70a2-0866-4f83-a961-843c075eb0b8]"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "9e206a02-81eb-4ec0-bf33-edeca4614557": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "9e206a02-81eb-4ec0-bf33-edeca4614557",
+    "timestamp": 1768384651,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "mentioned_agent_id": "admin",
+      "content": {
+        "text": "I'll summarize what you've shared so far and see if I can find any coping strategies that might help with stress and anxiety."
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "6660c95d-fc0e-4b25-bd8a-c0dd75862f23": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "6660c95d-fc0e-4b25-bd8a-c0dd75862f23",
+    "timestamp": 1768384651,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "We've discussed how you're feeling overwhelmed by work and anxious. I've also invited you to a direct message to further discuss this privately."
+      },
+      "reply_to_id": "41d499fb-30eb-4c80-91b9-2bc38db2f4a5",
+      "quoted_message_id": "6b4a81eb-dc75-45a3-9959-04cfa9d39d76",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "quoted_text": "[Quoted message 6b4a81eb-dc75-45a3-9959-04cfa9d39d76]"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "a83bb4e7-fe77-4c6e-a13b-96f34dd91ec4": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "a83bb4e7-fe77-4c6e-a13b-96f34dd91ec4",
+    "timestamp": 1768384651,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "53735ec4-57bf-45d8-8a9a-e257c54df0b5": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "53735ec4-57bf-45d8-8a9a-e257c54df0b5",
+    "timestamp": 1768384656,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "In our private conversation, we can explore more coping strategies and find ways to manage your stress and anxiety together."
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest",
+    "quoted_message_id": null,
+    "quoted_text": null
+  },
+  "admin_1768384738491_dgohwhtjc": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768384738491_dgohwhtjc",
+    "timestamp": 1768384738,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "TQn6JOYNEsdXWBwGenOCkLZiyRwqRbENptBrx5TbnxBs1XHk3Z2PnL3aWHLvo04u",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384738540_cj2a6ygjb": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768384738540_cj2a6ygjb",
+    "timestamp": 1768384738,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "TQn6JOYNEsdXWBwGenOCkLZiyRwqRbENptBrx5TbnxBs1XHk3Z2PnL3aWHLvo04u",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384814921_zj33ue5ub": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768384814921_zj33ue5ub",
+    "timestamp": 1768384814,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "YgfajNB22U7qNltNFbWsuq6A7iQMJn5S4Jr7G2j1PRPQuU1EkQ7DpJq1FC1XY2Bb",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384818684_2msvd6tse": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384818684_2msvd6tse",
+    "timestamp": 1768384818,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "YgfajNB22U7qNltNFbWsuq6A7iQMJn5S4Jr7G2j1PRPQuU1EkQ7DpJq1FC1XY2Bb",
+    "source_agent_group": "admin"
+  },
+  "1180b5b7-182e-4eee-887a-5d4e69d67bf7": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "1180b5b7-182e-4eee-887a-5d4e69d67bf7",
+    "timestamp": 1768384821,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "quoted_text": "[Quoted message 44ac5aaa-cab9-4838-9865-7d3339692909]",
+      "reply_to_id": "44ac5aaa-cab9-4838-9865-7d3339692909",
+      "quoted_message_id": "44ac5aaa-cab9-4838-9865-7d3339692909",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u4e5f\u597d\uff01"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384844632_t4wvc5p2q": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384844632_t4wvc5p2q",
+    "timestamp": 1768384844,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u7528 MBTI \u5206\u6790\u6211\u7684\u6027\u683c"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XZb1PP8OwD9G4NU3h94VjWl1cKISsRZUyckZp1x0BOp5btTT7qFFtsumM9DCQl6S",
+    "source_agent_group": "admin"
+  }
+}

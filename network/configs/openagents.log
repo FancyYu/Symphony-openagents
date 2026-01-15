@@ -1,0 +1,236 @@
+2026-01-15 12:00:45,709 - root - INFO - Logging to file: /Users/fancy/Desktop/Symphony-openagents/network/configs/openagents.log
+2026-01-15 12:00:45,716 - openagents.utils.agent_loader - INFO - Processed 1 enabled mods: ['openagents.mods.workspace.messaging']
+2026-01-15 12:00:45,716 - openagents.utils.agent_loader - INFO - Creating openagents.agents.collaborator_agent.CollaboratorAgent instance with ID 'coordinator-agent'
+2026-01-15 12:00:45,717 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.workspace.messaging
+2026-01-15 12:00:45,718 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.workspace.messaging (no args)
+2026-01-15 12:00:45,720 - openagents.mods.workspace.messaging.adapter - INFO - Initializing Thread Messaging protocol for agent coordinator-agent with file storage at /var/folders/mw/q9ryqjy93_3b0rjhk6ydh3yh0000gn/T/openagents_agent_coordinator-agent_threads_tgwj3idg
+2026-01-15 12:00:45,720 - openagents.core.client - INFO - Registered mod adapter ThreadMessagingAgentAdapter with agent coordinator-agent
+2026-01-15 12:00:45,721 - openagents.agents.runner - INFO - Updated available tools for agent coordinator-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+2026-01-15 12:00:45,723 - openagents.utils.agent_loader - INFO - Successfully loaded openagents.agents.collaborator_agent.CollaboratorAgent 'coordinator-agent' from coordinator_agent.yaml
+2026-01-15 12:00:45,730 - openagents.core.client - INFO - ✅ Successfully retrieved health check from http://localhost:8700/api/health
+2026-01-15 12:00:45,730 - openagents.core.client - INFO - Detected network: DefaultNetwork (default-network-1)
+2026-01-15 12:00:45,731 - openagents.core.client - INFO - Transport: grpc, Host: localhost, Port: 8600
+2026-01-15 12:00:45,731 - openagents.core.client - INFO - Creating gRPC connector for agent coordinator-agent
+2026-01-15 12:00:45,779 - openagents.core.connectors.grpc_connector - INFO - Connecting to gRPC server at localhost:8600
+2026-01-15 12:00:45,806 - openagents.core.connectors.grpc_connector - INFO - Connected to gRPC network successfully
+2026-01-15 12:00:45,807 - openagents.core.client - INFO - 🔧 Starting message polling for  agent coordinator-agent
+2026-01-15 12:00:45,813 - openagents.core.client - INFO - 🔧 CLIENT: Starting message polling for agent coordinator-agent
+2026-01-15 12:00:45,817 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.project (v1.0.0)
+2026-01-15 12:00:45,817 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+2026-01-15 12:00:45,818 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.wiki (v1.0.0)
+2026-01-15 12:00:45,818 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.default (v1.0.0)
+2026-01-15 12:00:45,819 - openagents.agents.runner - INFO - Supported mod: openagents.mods.games.agentworld (v1.0.0)
+2026-01-15 12:00:45,819 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.forum (v1.0.0)
+2026-01-15 12:00:45,821 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.games.agentworld
+2026-01-15 12:00:45,823 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter created
+2026-01-15 12:00:45,824 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.games.agentworld (no args)
+2026-01-15 12:00:45,824 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter initialized for agent coordinator-agent, game server: localhost:7031, username_prefix: None
+2026-01-15 12:00:45,825 - openagents.core.client - INFO - Registered mod adapter AgentWorldAdapter with agent coordinator-agent
+2026-01-15 12:00:45,825 - openagents.agents.runner - INFO - Updated available tools for agent coordinator-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+2026-01-15 12:01:29,271 - openagents.utils.mcp_connector - INFO - Cleaning up MCP clients
+2026-01-15 12:01:29,380 - openagents.core.connectors.grpc_connector - INFO - Agent coordinator-agent disconnected from gRPC network
+2026-01-15 12:02:56,044 - root - INFO - Logging to file: /Users/fancy/Desktop/Symphony-openagents/network/configs/openagents.log
+2026-01-15 12:02:56,048 - openagents.utils.agent_loader - INFO - Processed 1 enabled mods: ['openagents.mods.workspace.messaging']
+2026-01-15 12:02:56,048 - openagents.utils.agent_loader - INFO - Creating openagents.agents.collaborator_agent.CollaboratorAgent instance with ID 'coordinator-agent'
+2026-01-15 12:02:56,049 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.workspace.messaging
+2026-01-15 12:02:56,049 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.workspace.messaging (no args)
+2026-01-15 12:02:56,051 - openagents.mods.workspace.messaging.adapter - INFO - Initializing Thread Messaging protocol for agent coordinator-agent with file storage at /var/folders/mw/q9ryqjy93_3b0rjhk6ydh3yh0000gn/T/openagents_agent_coordinator-agent_threads_1xqyq76t
+2026-01-15 12:02:56,052 - openagents.core.client - INFO - Registered mod adapter ThreadMessagingAgentAdapter with agent coordinator-agent
+2026-01-15 12:02:56,053 - openagents.agents.runner - INFO - Updated available tools for agent coordinator-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+2026-01-15 12:02:56,054 - openagents.utils.agent_loader - INFO - Successfully loaded openagents.agents.collaborator_agent.CollaboratorAgent 'coordinator-agent' from coordinator_agent.yaml
+2026-01-15 12:02:56,074 - openagents.core.client - INFO - ✅ Successfully retrieved health check from http://localhost:8700/api/health
+2026-01-15 12:02:56,075 - openagents.core.client - INFO - Detected network: DefaultNetwork (default-network-1)
+2026-01-15 12:02:56,076 - openagents.core.client - INFO - Transport: grpc, Host: localhost, Port: 8600
+2026-01-15 12:02:56,076 - openagents.core.client - INFO - Creating gRPC connector for agent coordinator-agent
+2026-01-15 12:02:56,120 - openagents.core.connectors.grpc_connector - INFO - Connecting to gRPC server at localhost:8600
+2026-01-15 12:02:56,138 - openagents.core.connectors.grpc_connector - INFO - Connected to gRPC network successfully
+2026-01-15 12:02:56,139 - openagents.core.client - INFO - 🔧 Starting message polling for  agent coordinator-agent
+2026-01-15 12:02:56,145 - openagents.core.client - INFO - 🔧 CLIENT: Starting message polling for agent coordinator-agent
+2026-01-15 12:02:56,148 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.project (v1.0.0)
+2026-01-15 12:02:56,149 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+2026-01-15 12:02:56,150 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.wiki (v1.0.0)
+2026-01-15 12:02:56,150 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.default (v1.0.0)
+2026-01-15 12:02:56,151 - openagents.agents.runner - INFO - Supported mod: openagents.mods.games.agentworld (v1.0.0)
+2026-01-15 12:02:56,151 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.forum (v1.0.0)
+2026-01-15 12:02:56,153 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.games.agentworld
+2026-01-15 12:02:56,154 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter created
+2026-01-15 12:02:56,155 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.games.agentworld (no args)
+2026-01-15 12:02:56,155 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter initialized for agent coordinator-agent, game server: localhost:7031, username_prefix: None
+2026-01-15 12:02:56,156 - openagents.core.client - INFO - Registered mod adapter AgentWorldAdapter with agent coordinator-agent
+2026-01-15 12:02:56,156 - openagents.agents.runner - INFO - Updated available tools for agent coordinator-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+2026-01-15 12:03:12,226 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: coordinator-agent
+2026-01-15 12:03:15,686 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:15,700 - openagents.mods.workspace.messaging.adapter - INFO - 🔍 DEBUG CHANNEL: Input channel='general' -> normalized='general'
+2026-01-15 12:03:15,701 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Created Event with visibility=EventVisibility.NETWORK, relevant_mod=openagents.mods.workspace.messaging
+2026-01-15 12:03:15,702 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Event destination_id=channel:general
+2026-01-15 12:03:16,546 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:03:17,028 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:20,066 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:21,855 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:23,586 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:03:26,856 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:28,394 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:28,612 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:03:32,786 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:34,485 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:37,651 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:03:43,096 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:03:44,004 - openagents.utils.mcp_connector - INFO - Cleaning up MCP clients
+2026-01-15 12:03:44,119 - openagents.core.connectors.grpc_connector - INFO - Agent coordinator-agent disconnected from gRPC network
+2026-01-15 12:06:07,814 - root - INFO - Logging to file: /Users/fancy/Desktop/Symphony-openagents/network/configs/openagents.log
+2026-01-15 12:06:07,819 - openagents.utils.agent_loader - INFO - Processed 1 enabled mods: ['openagents.mods.workspace.messaging']
+2026-01-15 12:06:07,820 - openagents.utils.agent_loader - INFO - Creating openagents.agents.collaborator_agent.CollaboratorAgent instance with ID 'coordinator-agent'
+2026-01-15 12:06:07,821 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.workspace.messaging
+2026-01-15 12:06:07,821 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.workspace.messaging (no args)
+2026-01-15 12:06:07,823 - openagents.mods.workspace.messaging.adapter - INFO - Initializing Thread Messaging protocol for agent coordinator-agent with file storage at /var/folders/mw/q9ryqjy93_3b0rjhk6ydh3yh0000gn/T/openagents_agent_coordinator-agent_threads_9pnn8wjm
+2026-01-15 12:06:07,825 - openagents.core.client - INFO - Registered mod adapter ThreadMessagingAgentAdapter with agent coordinator-agent
+2026-01-15 12:06:07,826 - openagents.agents.runner - INFO - Updated available tools for agent coordinator-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+2026-01-15 12:06:07,827 - openagents.utils.agent_loader - INFO - Successfully loaded openagents.agents.collaborator_agent.CollaboratorAgent 'coordinator-agent' from coordinator_agent.yaml
+2026-01-15 12:06:07,835 - openagents.core.client - INFO - ✅ Successfully retrieved health check from http://localhost:8700/api/health
+2026-01-15 12:06:07,836 - openagents.core.client - INFO - Detected network: DefaultNetwork (default-network-1)
+2026-01-15 12:06:07,837 - openagents.core.client - INFO - Transport: grpc, Host: localhost, Port: 8600
+2026-01-15 12:06:07,837 - openagents.core.client - INFO - Creating gRPC connector for agent coordinator-agent
+2026-01-15 12:06:07,889 - openagents.core.connectors.grpc_connector - INFO - Connecting to gRPC server at localhost:8600
+2026-01-15 12:06:07,905 - openagents.core.connectors.grpc_connector - INFO - Connected to gRPC network successfully
+2026-01-15 12:06:07,906 - openagents.core.client - INFO - 🔧 Starting message polling for  agent coordinator-agent
+2026-01-15 12:06:07,912 - openagents.core.client - INFO - 🔧 CLIENT: Starting message polling for agent coordinator-agent
+2026-01-15 12:06:07,916 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.project (v1.0.0)
+2026-01-15 12:06:07,916 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+2026-01-15 12:06:07,917 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.wiki (v1.0.0)
+2026-01-15 12:06:07,917 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.default (v1.0.0)
+2026-01-15 12:06:07,918 - openagents.agents.runner - INFO - Supported mod: openagents.mods.games.agentworld (v1.0.0)
+2026-01-15 12:06:07,918 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.forum (v1.0.0)
+2026-01-15 12:06:07,920 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.games.agentworld
+2026-01-15 12:06:07,921 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter created
+2026-01-15 12:06:07,922 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.games.agentworld (no args)
+2026-01-15 12:06:07,922 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter initialized for agent coordinator-agent, game server: localhost:7031, username_prefix: None
+2026-01-15 12:06:07,923 - openagents.core.client - INFO - Registered mod adapter AgentWorldAdapter with agent coordinator-agent
+2026-01-15 12:06:07,923 - openagents.agents.runner - INFO - Updated available tools for agent coordinator-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+2026-01-15 12:06:13,049 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: coordinator-agent
+2026-01-15 12:06:15,840 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:18,321 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:06:22,379 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:24,521 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:27,037 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:30,028 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:31,578 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:34,514 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:06:38,198 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:40,058 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:47,593 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:06:55,638 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: coordinator-agent
+2026-01-15 12:06:55,782 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:06:56,641 - openagents.utils.mcp_connector - INFO - Cleaning up MCP clients
+2026-01-15 12:06:56,747 - openagents.core.connectors.grpc_connector - INFO - Agent coordinator-agent disconnected from gRPC network
+2026-01-15 12:26:15,909 - root - INFO - Logging to file: /Users/fancy/Desktop/Symphony-openagents/network/configs/openagents.log
+2026-01-15 12:26:15,914 - openagents.utils.agent_loader - INFO - Processed 1 enabled mods: ['openagents.mods.workspace.messaging']
+2026-01-15 12:26:15,915 - openagents.utils.agent_loader - INFO - Creating openagents.agents.collaborator_agent.CollaboratorAgent instance with ID 'analyst-agent'
+2026-01-15 12:26:15,915 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.workspace.messaging
+2026-01-15 12:26:15,916 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.workspace.messaging (no args)
+2026-01-15 12:26:15,919 - openagents.mods.workspace.messaging.adapter - INFO - Initializing Thread Messaging protocol for agent analyst-agent with file storage at /var/folders/mw/q9ryqjy93_3b0rjhk6ydh3yh0000gn/T/openagents_agent_analyst-agent_threads_wzqt31ka
+2026-01-15 12:26:15,919 - openagents.core.client - INFO - Registered mod adapter ThreadMessagingAgentAdapter with agent analyst-agent
+2026-01-15 12:26:15,920 - openagents.agents.runner - INFO - Updated available tools for agent analyst-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+2026-01-15 12:26:15,921 - openagents.utils.agent_loader - INFO - Successfully loaded openagents.agents.collaborator_agent.CollaboratorAgent 'analyst-agent' from analyst_agent.yaml
+2026-01-15 12:26:15,929 - openagents.core.client - INFO - ✅ Successfully retrieved health check from http://localhost:8700/api/health
+2026-01-15 12:26:15,930 - openagents.core.client - INFO - Detected network: DefaultNetwork (default-network-1)
+2026-01-15 12:26:15,930 - openagents.core.client - INFO - Transport: grpc, Host: localhost, Port: 8600
+2026-01-15 12:26:15,931 - openagents.core.client - INFO - Creating gRPC connector for agent analyst-agent
+2026-01-15 12:26:15,977 - openagents.core.connectors.grpc_connector - INFO - Connecting to gRPC server at localhost:8600
+2026-01-15 12:26:15,995 - openagents.core.connectors.grpc_connector - INFO - Connected to gRPC network successfully
+2026-01-15 12:26:15,995 - openagents.core.client - INFO - 🔧 Starting message polling for  agent analyst-agent
+2026-01-15 12:26:16,001 - openagents.core.client - INFO - 🔧 CLIENT: Starting message polling for agent analyst-agent
+2026-01-15 12:26:16,004 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.project (v1.0.0)
+2026-01-15 12:26:16,005 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+2026-01-15 12:26:16,005 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.wiki (v1.0.0)
+2026-01-15 12:26:16,006 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.default (v1.0.0)
+2026-01-15 12:26:16,006 - openagents.agents.runner - INFO - Supported mod: openagents.mods.games.agentworld (v1.0.0)
+2026-01-15 12:26:16,007 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.forum (v1.0.0)
+2026-01-15 12:26:16,009 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.games.agentworld
+2026-01-15 12:26:16,010 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter created
+2026-01-15 12:26:16,010 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.games.agentworld (no args)
+2026-01-15 12:26:16,011 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter initialized for agent analyst-agent, game server: localhost:7031, username_prefix: None
+2026-01-15 12:26:16,011 - openagents.core.client - INFO - Registered mod adapter AgentWorldAdapter with agent analyst-agent
+2026-01-15 12:26:16,012 - openagents.agents.runner - INFO - Updated available tools for agent analyst-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+2026-01-15 12:26:34,118 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: analyst-agent
+2026-01-15 12:26:38,362 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:26:38,424 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:26:42,633 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:26:43,443 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: analyst-agent
+2026-01-15 12:26:48,470 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: analyst-agent
+2026-01-15 12:26:48,715 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:26:48,725 - openagents.mods.workspace.messaging.adapter - INFO - 🔍 DEBUG CHANNEL: Input channel='general' -> normalized='general'
+2026-01-15 12:26:48,725 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Created Event with visibility=EventVisibility.NETWORK, relevant_mod=openagents.mods.workspace.messaging
+2026-01-15 12:26:48,726 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Event destination_id=channel:general
+2026-01-15 12:26:49,483 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:26:50,561 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:26:55,082 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:26:55,091 - openagents.mods.workspace.messaging.adapter - INFO - 🔍 DEBUG CHANNEL: Input channel='general' -> normalized='general'
+2026-01-15 12:26:55,092 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Created Event with visibility=EventVisibility.NETWORK, relevant_mod=openagents.mods.workspace.messaging
+2026-01-15 12:26:55,092 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Event destination_id=channel:general
+2026-01-15 12:26:57,402 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:02,651 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:27:03,234 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:05,357 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:10,002 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:10,695 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: analyst-agent
+2026-01-15 12:27:11,926 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:12,714 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:27:20,760 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:27:30,810 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:27:45,711 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:45,723 - openagents.mods.workspace.messaging.adapter - INFO - 🔍 DEBUG CHANNEL: Input channel='general' -> normalized='general'
+2026-01-15 12:27:45,723 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Created Event with visibility=EventVisibility.NETWORK, relevant_mod=openagents.mods.workspace.messaging
+2026-01-15 12:27:45,724 - openagents.mods.workspace.messaging.adapter - INFO - 🔧 ADAPTER: Event destination_id=channel:general
+2026-01-15 12:27:47,905 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:27:49,216 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:56,147 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:27:58,736 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:28:00,975 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:28:04,118 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:28:06,915 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:28:09,695 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:28:12,334 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:28:13,049 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:28:19,518 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:28:22,109 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:28:22,506 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-15 12:28:26,399 - openagents.utils.mcp_connector - INFO - Cleaning up MCP clients
+2026-01-15 12:28:26,514 - openagents.core.connectors.grpc_connector - INFO - Agent analyst-agent disconnected from gRPC network
+2026-01-15 12:31:11,432 - root - INFO - Logging to file: /Users/fancy/Desktop/Symphony-openagents/network/configs/openagents.log
+2026-01-15 12:31:11,441 - openagents.utils.agent_loader - INFO - Processed 1 enabled mods: ['openagents.mods.workspace.messaging']
+2026-01-15 12:31:11,442 - openagents.utils.agent_loader - INFO - Creating openagents.agents.collaborator_agent.CollaboratorAgent instance with ID 'analyst-agent'
+2026-01-15 12:31:11,446 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.workspace.messaging
+2026-01-15 12:31:11,452 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.workspace.messaging (no args)
+2026-01-15 12:31:11,455 - openagents.mods.workspace.messaging.adapter - INFO - Initializing Thread Messaging protocol for agent analyst-agent with file storage at /var/folders/mw/q9ryqjy93_3b0rjhk6ydh3yh0000gn/T/openagents_agent_analyst-agent_threads_759sctpx
+2026-01-15 12:31:11,456 - openagents.core.client - INFO - Registered mod adapter ThreadMessagingAgentAdapter with agent analyst-agent
+2026-01-15 12:31:11,458 - openagents.agents.runner - INFO - Updated available tools for agent analyst-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+2026-01-15 12:31:11,459 - openagents.utils.agent_loader - INFO - Successfully loaded openagents.agents.collaborator_agent.CollaboratorAgent 'analyst-agent' from analyst_agent.yaml
+2026-01-15 12:31:11,473 - openagents.core.client - INFO - ✅ Successfully retrieved health check from http://localhost:8700/api/health
+2026-01-15 12:31:11,475 - openagents.core.client - INFO - Detected network: DefaultNetwork (default-network-1)
+2026-01-15 12:31:11,476 - openagents.core.client - INFO - Transport: grpc, Host: localhost, Port: 8600
+2026-01-15 12:31:11,477 - openagents.core.client - INFO - Creating gRPC connector for agent analyst-agent
+2026-01-15 12:31:11,554 - openagents.core.connectors.grpc_connector - INFO - Connecting to gRPC server at localhost:8600
+2026-01-15 12:31:11,576 - openagents.core.connectors.grpc_connector - INFO - Connected to gRPC network successfully
+2026-01-15 12:31:11,577 - openagents.core.client - INFO - 🔧 Starting message polling for  agent analyst-agent
+2026-01-15 12:31:11,583 - openagents.core.client - INFO - 🔧 CLIENT: Starting message polling for agent analyst-agent
+2026-01-15 12:31:11,598 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.project (v1.0.0)
+2026-01-15 12:31:11,598 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+2026-01-15 12:31:11,599 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.wiki (v1.0.0)
+2026-01-15 12:31:11,600 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.default (v1.0.0)
+2026-01-15 12:31:11,600 - openagents.agents.runner - INFO - Supported mod: openagents.mods.games.agentworld (v1.0.0)
+2026-01-15 12:31:11,600 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.forum (v1.0.0)
+2026-01-15 12:31:11,604 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.games.agentworld
+2026-01-15 12:31:11,608 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter created
+2026-01-15 12:31:11,610 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.games.agentworld (no args)
+2026-01-15 12:31:11,610 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter initialized for agent analyst-agent, game server: localhost:7031, username_prefix: None
+2026-01-15 12:31:11,611 - openagents.core.client - INFO - Registered mod adapter AgentWorldAdapter with agent analyst-agent
+2026-01-15 12:31:11,612 - openagents.agents.runner - INFO - Updated available tools for agent analyst-agent: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+2026-01-15 12:31:34,938 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: analyst-agent
+2026-01-15 12:31:39,989 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: analyst-agent
+2026-01-15 12:31:42,010 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:31:51,051 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:32:19,292 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: admin | Target: analyst-agent
+2026-01-15 12:32:27,339 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.channel_message.notification | Source: daily-assistant | Target: analyst-agent
+2026-01-15 12:32:45,698 - openagents.core.client - INFO - 📥 RECEIVED EVENT: thread.direct_message.notification | Source: admin | Target: agent:analyst-agent
+2026-01-15 12:35:27,837 - openagents.utils.mcp_connector - INFO - Cleaning up MCP clients
+2026-01-15 12:35:27,960 - openagents.core.connectors.grpc_connector - INFO - Agent analyst-agent disconnected from gRPC network

@@ -1,0 +1,40 @@
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "coordinator-agent"
+
+config:
+  model_name: "qwen-plus"
+  provider: "qwen"
+  api_key: "${QWEN_API_KEY}"
+  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  temperature: 0.7
+  max_tokens: 600
+  react_to_all_messages: true
+
+  instruction: |
+    你是 Symphony 系统的协调者。必须始终用中文回复。
+
+    **重要规则：**
+    1. 只回复来自真实用户的消息
+    2. 如果消息来自其他 agent（如 daily-assistant, analyst-agent, creator-agent），不要回复
+    3. 当你收到用户消息时，使用 send_channel_message 工具回复到同一个频道
+
+    你的职责：
+    1. 接收用户消息并判断需求类型
+    2. 对于简单问候和日常对话，直接友好回复
+    3. 对于需要深度分析的内容（压力、困惑、职业、关系等），告知用户"正在为你进行深度分析..."
+    4. 保持简洁、友好、支持性
+
+    判断规则：
+    - 简单问候（你好、早上好等）→ 直接回复
+    - 深度话题（压力、焦虑、困惑、职业发展、人际关系等）→ 告知分析中
+
+    始终用中文回复。保持温暖和鼓励的语气。
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "grpc"

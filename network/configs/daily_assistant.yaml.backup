@@ -1,0 +1,67 @@
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "daily-assistant"
+
+config:
+  model_name: "llama-3.1-8b-instant"
+  instruction: |
+    你是 Symphony 系统中的日常助理 - 一个个人成长系统。你必须始终用中文（简体中文）回复。
+
+    你的角色：
+    1. 倾听用户的日常更新、想法和担忧
+    2. 保持同理心和支持性
+    3. 检测何时需要深度分析
+    4. 当用户提到以下内容时触发分析请求：
+       - 压力、焦虑、倦怠
+       - 职业困惑、工作不满
+       - 关系问题、社交挑战
+       - 个人成长问题
+       - 请求分析或洞察
+
+    当需要分析时：
+    - 回复："我理解你的感受。让我为你进行深入分析，找出解决方案。"
+    - 系统会自动触发分析流程
+
+    其他情况：保持温暖、支持性，进行自然对话。
+
+    重要规则：
+    - 【必须】始终用中文（简体中文）回复，绝不使用英文、泰文或其他语言
+    - 保持简洁（1-3句话）
+    - 让用户感到被倾听和理解
+    - 你是第一接触点，建立信任很重要
+
+    示例对话：
+    用户："hello？"
+    你："你好！我是你的日常助理，有什么可以帮助你的吗？"
+
+    用户："最近工作压力很大"
+    你："我理解你的感受。让我为你进行深入分析，找出解决方案。"
+
+  react_to_all_messages: true
+
+  llm_config:
+    provider: "groq"
+    api_key: "${GROQ_API_KEY}"
+    model: "llama-3.1-8b-instant"
+    api_base: "https://api.groq.com/openai/v1"
+    temperature: 0.7
+    max_tokens: 150
+    system_message: "You are a Chinese-speaking assistant. You MUST respond ONLY in Chinese (中文). Never use English, Thai, or any other language. Always use simplified Chinese characters."
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+    config:
+      auto_reply: true
+      default_channel: "symphony-daily"
+      target_id: "daily-assistant"
+      # 同时指定消息来源（可选但更清晰）
+      source_id: "user"
+      # 确保不是广播模式
+      broadcast: false
+      # 消息类型
+      message_types: ["text"]
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "grpc"

@@ -1,0 +1,197 @@
+{
+  "admin_1768314494593_o3rluhubz": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768314494593_o3rluhubz",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314494647_ofy2lfavw": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314494647_ofy2lfavw",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314494712_i4svmidra": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314494712_i4svmidra",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314502315_vy4y3jzdf": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314502315_vy4y3jzdf",
+    "timestamp": 1768314502,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314505979_vjbzuithu": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "admin",
+    "event_id": "admin_1768314505979_vjbzuithu",
+    "timestamp": 1768314505,
+    "source_type": "agent",
+    "destination_id": "agent:daily-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "direct_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin",
+    "quoted_message_id": null,
+    "quoted_text": null
+  },
+  "d50454f7-cc35-4345-8b6b-61db8ab5b7ac": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "d50454f7-cc35-4345-8b6b-61db8ab5b7ac",
+    "timestamp": 1768314557,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "quoted_message_id": "08a4cbfa-270d-43a1-a4fc-836fb8b4a0ef",
+      "content": {
+        "text": "Hello, how can I assist you today?"
+      },
+      "message_type": "direct_message",
+      "target_agent_id": "admin"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "8nTHjzOPH1SCihoMqiJUaJyE09Lw1SkRkmUDwb7FSuvu59v2bfwg7TraxFheAyNO",
+    "source_agent_group": "guest",
+    "quoted_message_id": "08a4cbfa-270d-43a1-a4fc-836fb8b4a0ef",
+    "quoted_text": "[Quoted message 08a4cbfa-270d-43a1-a4fc-836fb8b4a0ef not found]"
+  },
+  "admin_1768314770718_0a0q0yi98": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "admin",
+    "event_id": "admin_1768314770718_0a0q0yi98",
+    "timestamp": 1768314770,
+    "source_type": "agent",
+    "destination_id": "agent:daily-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u5e2e\u6211\u5206\u6790\u4e00\u4e0b"
+      },
+      "message_type": "direct_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin",
+    "quoted_message_id": null,
+    "quoted_text": null
+  },
+  "admin_1768316005364_6ljvrdjvl": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768316005364_6ljvrdjvl",
+    "timestamp": 1768316005,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "Gl1xDX5SJLrqv2g5PvmChyzFaEZVq0ZEoaaAoVPoHOOlBcFCyN46iqtYEOJbKYqK",
+    "source_agent_group": "admin"
+  }
+}

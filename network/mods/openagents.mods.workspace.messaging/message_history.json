@@ -1,0 +1,3623 @@
+{
+  "admin_1768314494593_o3rluhubz": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768314494593_o3rluhubz",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314494647_ofy2lfavw": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314494647_ofy2lfavw",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314494712_i4svmidra": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314494712_i4svmidra",
+    "timestamp": 1768314494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314502315_vy4y3jzdf": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768314502315_vy4y3jzdf",
+    "timestamp": 1768314502,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768314505979_vjbzuithu": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "admin",
+    "event_id": "admin_1768314505979_vjbzuithu",
+    "timestamp": 1768314505,
+    "source_type": "agent",
+    "destination_id": "agent:daily-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "direct_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "d50454f7-cc35-4345-8b6b-61db8ab5b7ac": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "d50454f7-cc35-4345-8b6b-61db8ab5b7ac",
+    "timestamp": 1768314557,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "quoted_message_id": "08a4cbfa-270d-43a1-a4fc-836fb8b4a0ef",
+      "content": {
+        "text": "Hello, how can I assist you today?"
+      },
+      "message_type": "direct_message",
+      "target_agent_id": "admin"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "8nTHjzOPH1SCihoMqiJUaJyE09Lw1SkRkmUDwb7FSuvu59v2bfwg7TraxFheAyNO",
+    "source_agent_group": "guest"
+  },
+  "admin_1768314770718_0a0q0yi98": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "admin",
+    "event_id": "admin_1768314770718_0a0q0yi98",
+    "timestamp": 1768314770,
+    "source_type": "agent",
+    "destination_id": "agent:daily-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u5e2e\u6211\u5206\u6790\u4e00\u4e0b"
+      },
+      "message_type": "direct_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "wa17ncIElWOJjzQPNhVWgeQZ5UR7oENDujERU9yKdN15xq8CxhHCz6c84nwA6xzA",
+    "source_agent_group": "admin"
+  },
+  "admin_1768316005364_6ljvrdjvl": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768316005364_6ljvrdjvl",
+    "timestamp": 1768316005,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "Gl1xDX5SJLrqv2g5PvmChyzFaEZVq0ZEoaaAoVPoHOOlBcFCyN46iqtYEOJbKYqK",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384313777_wxfw7gh4n": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768384313777_wxfw7gh4n",
+    "timestamp": 1768384313,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384313845_d4w9b49yh": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768384313845_d4w9b49yh",
+    "timestamp": 1768384313,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384318667_6tf7y0ylh": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384318667_6tf7y0ylh",
+    "timestamp": 1768384318,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "3b25beee-a816-45ea-a374-d49b52d44e8c": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "3b25beee-a816-45ea-a374-d49b52d44e8c",
+    "timestamp": 1768384321,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "reply_to_id": "098d70a2-0866-4f83-a961-843c075eb0b8",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "Welcome to the general channel!"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "cdc0b3d3-bf5d-47f2-a398-52c50f288a11": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "cdc0b3d3-bf5d-47f2-a398-52c50f288a11",
+    "timestamp": 1768384321,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "1eaa220e-93da-4585-beea-1ed54fcca8a8": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "1eaa220e-93da-4585-beea-1ed54fcca8a8",
+    "timestamp": 1768384327,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "eb91d90c-941f-422f-9a82-5ba72779e066": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "eb91d90c-941f-422f-9a82-5ba72779e066",
+    "timestamp": 1768384332,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "I'm here to help!"
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384344431_70uj71o7n": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384344431_70uj71o7n",
+    "timestamp": 1768384344,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u7ecf\u5e38\u52a0\u73ed\u5230\u5f88\u665a\uff0c\u611f\u89c9\u5f88\u7126\u8651"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "ada6cae3-ec76-429e-aef5-ea8cec8e8c6b": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "ada6cae3-ec76-429e-aef5-ea8cec8e8c6b",
+    "timestamp": 1768384361,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "Sorry to hear that you're feeling anxious and overwhelmed by your work. Would you like to talk about what's going on and how I can support you?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "2cbdb449-25f9-436c-ae30-96c6d7dca82e": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "2cbdb449-25f9-436c-ae30-96c6d7dca82e",
+    "timestamp": 1768384384,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384393898_xzkjws2y4": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384393898_xzkjws2y4",
+    "timestamp": 1768384393,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u5728\u5417\uff1f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "f6774aa0-e606-407d-a0f8-f3fb44cf53e9": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "f6774aa0-e606-407d-a0f8-f3fb44cf53e9",
+    "timestamp": 1768384419,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Let's discuss some coping strategies that might help mitigate your stress and anxiety. I'd like to list some common strategies. Shall I go on?"
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384439444_crtpgyco4": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384439444_crtpgyco4",
+    "timestamp": 1768384439,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u53ef\u4ee5"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "HFJ5z25pBZrPjnca1N61eYCzyo1P3aSoI8CwS7tuF8LReg94Biez3ZSROkl0wtuC",
+    "source_agent_group": "admin"
+  },
+  "a12a4596-95c4-4afc-889d-482e6f46dbe3": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "a12a4596-95c4-4afc-889d-482e6f46dbe3",
+    "timestamp": 1768384490,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "What's going on and how can I support you?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384502292_mjxbgqznh": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384502292_mjxbgqznh",
+    "timestamp": 1768384502,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "okay"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "ly0kJGDdPF3YC4Jy1gBYMd1W7e2YQqG3W5omT9hWaxyOUYRVRAtjuOHaXedDcdql",
+    "source_agent_group": "admin"
+  },
+  "1c92f8eb-5ee7-4616-88ba-c55eb7d803d0": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "1c92f8eb-5ee7-4616-88ba-c55eb7d803d0",
+    "timestamp": 1768384566,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "I understand that you're feeling overwhelmed. Let's take this conversation to a direct message so we can discuss this further privately."
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "32763333-d3cb-4025-adff-ea2873e46d26": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "32763333-d3cb-4025-adff-ea2873e46d26",
+    "timestamp": 1768384566,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Thanks for letting me know. Hopefully, we can help you find a way to manage your stress and anxiety."
+      },
+      "reply_to_id": "6b4a81eb-dc75-45a3-9959-04cfa9d39d76",
+      "quoted_message_id": "098d70a2-0866-4f83-a961-843c075eb0b8",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "quoted_text": "[Quoted message 098d70a2-0866-4f83-a961-843c075eb0b8]"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "9e206a02-81eb-4ec0-bf33-edeca4614557": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "9e206a02-81eb-4ec0-bf33-edeca4614557",
+    "timestamp": 1768384651,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "mentioned_agent_id": "admin",
+      "content": {
+        "text": "I'll summarize what you've shared so far and see if I can find any coping strategies that might help with stress and anxiety."
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "6660c95d-fc0e-4b25-bd8a-c0dd75862f23": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "6660c95d-fc0e-4b25-bd8a-c0dd75862f23",
+    "timestamp": 1768384651,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "We've discussed how you're feeling overwhelmed by work and anxious. I've also invited you to a direct message to further discuss this privately."
+      },
+      "reply_to_id": "41d499fb-30eb-4c80-91b9-2bc38db2f4a5",
+      "quoted_message_id": "6b4a81eb-dc75-45a3-9959-04cfa9d39d76",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "quoted_text": "[Quoted message 6b4a81eb-dc75-45a3-9959-04cfa9d39d76]"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "a83bb4e7-fe77-4c6e-a13b-96f34dd91ec4": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "a83bb4e7-fe77-4c6e-a13b-96f34dd91ec4",
+    "timestamp": 1768384651,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "53735ec4-57bf-45d8-8a9a-e257c54df0b5": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "53735ec4-57bf-45d8-8a9a-e257c54df0b5",
+    "timestamp": 1768384656,
+    "source_type": "agent",
+    "destination_id": "admin",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "admin",
+      "message_type": "direct_message",
+      "content": {
+        "text": "In our private conversation, we can explore more coping strategies and find ways to manage your stress and anxiety together."
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "S7D1MDCbfzJcU09dC38oh93Qw3olqFHaOE8jeqVQhyTHVTSxDQcNDQkn86oZnuJX",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384738491_dgohwhtjc": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768384738491_dgohwhtjc",
+    "timestamp": 1768384738,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "TQn6JOYNEsdXWBwGenOCkLZiyRwqRbENptBrx5TbnxBs1XHk3Z2PnL3aWHLvo04u",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384738540_cj2a6ygjb": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768384738540_cj2a6ygjb",
+    "timestamp": 1768384738,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "TQn6JOYNEsdXWBwGenOCkLZiyRwqRbENptBrx5TbnxBs1XHk3Z2PnL3aWHLvo04u",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384814921_zj33ue5ub": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768384814921_zj33ue5ub",
+    "timestamp": 1768384814,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "YgfajNB22U7qNltNFbWsuq6A7iQMJn5S4Jr7G2j1PRPQuU1EkQ7DpJq1FC1XY2Bb",
+    "source_agent_group": "admin"
+  },
+  "admin_1768384818684_2msvd6tse": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384818684_2msvd6tse",
+    "timestamp": 1768384818,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "YgfajNB22U7qNltNFbWsuq6A7iQMJn5S4Jr7G2j1PRPQuU1EkQ7DpJq1FC1XY2Bb",
+    "source_agent_group": "admin"
+  },
+  "1180b5b7-182e-4eee-887a-5d4e69d67bf7": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "1180b5b7-182e-4eee-887a-5d4e69d67bf7",
+    "timestamp": 1768384821,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "quoted_text": "[Quoted message 44ac5aaa-cab9-4838-9865-7d3339692909]",
+      "reply_to_id": "44ac5aaa-cab9-4838-9865-7d3339692909",
+      "quoted_message_id": "44ac5aaa-cab9-4838-9865-7d3339692909",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u4e5f\u597d\uff01"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384844632_t4wvc5p2q": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384844632_t4wvc5p2q",
+    "timestamp": 1768384844,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u7528 MBTI \u5206\u6790\u6211\u7684\u6027\u683c"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XZb1PP8OwD9G4NU3h94VjWl1cKISsRZUyckZp1x0BOp5btTT7qFFtsumM9DCQl6S",
+    "source_agent_group": "admin"
+  },
+  "aa8485f4-f4f8-4be2-b768-d93e980125ea": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "aa8485f4-f4f8-4be2-b768-d93e980125ea",
+    "timestamp": 1768384866,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384878716_met589vv9": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384878716_met589vv9",
+    "timestamp": 1768384878,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello\uff1f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XZb1PP8OwD9G4NU3h94VjWl1cKISsRZUyckZp1x0BOp5btTT7qFFtsumM9DCQl6S",
+    "source_agent_group": "admin"
+  },
+  "af43ce9a-49da-4fc3-b487-8ab9384e9d24": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "af43ce9a-49da-4fc3-b487-8ab9384e9d24",
+    "timestamp": 1768384893,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "mentioned_agent_id": "user",
+      "channel": "general",
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u6211\u4eec\u53ef\u4ee5\u5728\u8fd9\u91cc\u8ba8\u8bba\u5404\u79cd\u8bdd\u9898\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384906657_bacuwtftu": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384906657_bacuwtftu",
+    "timestamp": 1768384906,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u7528 MBTI \u5206\u6790\u6211\u7684\u6027\u683c"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XZb1PP8OwD9G4NU3h94VjWl1cKISsRZUyckZp1x0BOp5btTT7qFFtsumM9DCQl6S",
+    "source_agent_group": "admin"
+  },
+  "21d0eff1-2ff8-4b2a-990e-5ac6f54b4bb1": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "21d0eff1-2ff8-4b2a-990e-5ac6f54b4bb1",
+    "timestamp": 1768384925,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "quoted_text": "[Quoted message 8fba54d3-3ed5-4bdc-9e37-0ac11ba587db]",
+      "reply_to_id": "8fba54d3-3ed5-4bdc-9e37-0ac11ba587db",
+      "quoted_message_id": "8fba54d3-3ed5-4bdc-9e37-0ac11ba587db",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "\u6211\u4eec\u53ef\u4ee5\u4f7f\u7528 MBTI \u4e2a\u4eba\u6027\u683c\u6d4b\u8bd5\u5206\u6790\u4f60\u7684\u6027\u683c\u3002\u9700\u8981\u767b\u5f55\u4f60\u7684\u4e2a\u4eba\u4fe1\u606f\u5417?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768384932618_5322lg4bn": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768384932618_5322lg4bn",
+    "timestamp": 1768384932,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u9700\u8981"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XZb1PP8OwD9G4NU3h94VjWl1cKISsRZUyckZp1x0BOp5btTT7qFFtsumM9DCQl6S",
+    "source_agent_group": "admin"
+  },
+  "7e85cced-c7db-41a3-be18-fe2f409d93a9": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "7e85cced-c7db-41a3-be18-fe2f409d93a9",
+    "timestamp": 1768384941,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u8bf7\u5728\u8fd9\u91cc\u8f93\u5165\u4f60\u6240\u5728\u7684\u4f4d\u7f6e\uff08\u56fd\u5bb6/\u57ce\u5e02\uff09\u4ee5\u4fbf\u8fdb\u884c\u66f4\u7cbe\u786e\u5730\u5206\u6790\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768385004299_cwlkofb6m": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768385004299_cwlkofb6m",
+    "timestamp": 1768385004,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u9999\u6e2f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XZb1PP8OwD9G4NU3h94VjWl1cKISsRZUyckZp1x0BOp5btTT7qFFtsumM9DCQl6S",
+    "source_agent_group": "admin"
+  },
+  "3f6b22bc-9797-4ea0-9bd5-2800ea0608df": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "3f6b22bc-9797-4ea0-9bd5-2800ea0608df",
+    "timestamp": 1768385011,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "reply_to_id": "d0801bd8-f164-49bd-95b7-0cfa5c228521",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u4e5f\u597d\uff01"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768385058531_gbonfveuy": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768385058531_gbonfveuy",
+    "timestamp": 1768385058,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u7ecf\u5e38\u52a0\u73ed\u5230\u5f88\u665a\uff0c\u611f\u89c9\u5f88\u7126\u8651"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XZb1PP8OwD9G4NU3h94VjWl1cKISsRZUyckZp1x0BOp5btTT7qFFtsumM9DCQl6S",
+    "source_agent_group": "admin"
+  },
+  "dec3db11-2e7e-437a-b3d6-73294dc29fdc": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "dec3db11-2e7e-437a-b3d6-73294dc29fdc",
+    "timestamp": 1768385083,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "602d77d3-91f5-4fd8-a4f6-74dcfdd19df8": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "602d77d3-91f5-4fd8-a4f6-74dcfdd19df8",
+    "timestamp": 1768385121,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "reply_to_id": "d0801bd8-f164-49bd-95b7-0cfa5c228521",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "\u6211\u4eec\u53ef\u4ee5\u4f7f\u7528 MBTI \u4e2a\u4eba\u6027\u683c\u6d4b\u8bd5\u5206\u6790\u4f60\u7684\u6027\u683c\u3002\u9700\u8981\u767b\u5f55\u4f60\u7684\u4e2a\u4eba\u4fe1\u606f\u5417?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "f73ff5ba-142e-48fe-83ea-75a56907bbe1": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant",
+    "event_id": "f73ff5ba-142e-48fe-83ea-75a56907bbe1",
+    "timestamp": 1768385158,
+    "source_type": "agent",
+    "destination_id": "user",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "user",
+      "message_type": "direct_message",
+      "content": {
+        "text": "\u8bf7\u5728\u8fd9\u91cc\u8f93\u5165\u4f60\u6240\u5728\u7684\u4f4d\u7f6e\uff08\u56fd\u5bb6/\u57ce\u5e02\uff09\u4ee5\u4fbf\u8fdb\u884c\u66f4\u7cbe\u786e\u5730\u5206\u6790\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "fff0019a-c5d1-47eb-824e-c5aba943a4d5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "fff0019a-c5d1-47eb-824e-c5aba943a4d5",
+    "timestamp": 1768385281,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u6211\u4eec\u5df2\u7ecf\u6536\u5230\u4f60\u7684\u9700\u6c42\u4e86\uff0c\u4e0b\u4e00\u6b65\u6211\u4eec\u4f1a\u4e3a\u4f60\u5206\u6790\u548c\u63d0\u4f9b\u76f8\u5173\u5efa\u8bae\u3002\u8bf7\u7a0d\u7b49"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "1d373700-78d0-4008-9dde-26429be70c6d": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "daily-assistant",
+    "event_id": "1d373700-78d0-4008-9dde-26429be70c6d",
+    "timestamp": 1768385324,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "user",
+      "action": "retrieve_direct_messages",
+      "include_threads": true,
+      "message_type": "message_retrieval",
+      "limit": 50,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "i5SfgOOLHxIRvLgdKtsR0nlzDYWOjd4EdbyOxQPE2j5Pjer0ggRnuZJY4JjrARb9",
+    "source_agent_group": "guest"
+  },
+  "admin_1768385809769_ugilr26x7": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768385809769_ugilr26x7",
+    "timestamp": 1768385809,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "d2eMNSNATYPPLFeVulTfaoU24OOKIQ2IfyJ2Tdvv9o1fvhZtt1SLV5bE8lHvKF11",
+    "source_agent_group": "admin"
+  },
+  "admin_1768385888192_d84kx9bdx": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768385888192_d84kx9bdx",
+    "timestamp": 1768385888,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768385888245_gatly9z87": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768385888245_gatly9z87",
+    "timestamp": 1768385888,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768385888322_rv3w9d4sb": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768385888322_rv3w9d4sb",
+    "timestamp": 1768385888,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768385930552_9qvfo5ase": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768385930552_9qvfo5ase",
+    "timestamp": 1768385930,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768385963360_06v7cfpp6": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768385963360_06v7cfpp6",
+    "timestamp": 1768385963,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello\uff1f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "77234240-308e-4017-aa4e-ba1502af8a0b": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "77234240-308e-4017-aa4e-ba1502af8a0b",
+    "timestamp": 1768385965,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 \u0e09\u0e31\u0e19\u0e01\u0e33\u0e25\u0e31\u0e07\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a"
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "quoted_message_id": "d273bc52-7e81-4849-a95b-d28422fdfeeb",
+      "source_id": "daily-assistant",
+      "mentioned_agent_id": "admin",
+      "quoted_text": "[Quoted message d273bc52-7e81-4849-a95b-d28422fdfeeb]"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "e406987d-7fec-4833-b831-1ba77a91407f": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "daily-assistant",
+    "event_id": "e406987d-7fec-4833-b831-1ba77a91407f",
+    "timestamp": 1768385965,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "limit": 50,
+      "message_type": "message_retrieval",
+      "channel": "general",
+      "offset": 0,
+      "action": "retrieve_channel_messages",
+      "include_threads": true
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "admin_1768386018146_km3g1dobw": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386018146_km3g1dobw",
+    "timestamp": 1768386018,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u8428\u74e6\u8fea\u5361"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "221e243e-3cc6-4e1b-a56f-f338ad6533a1": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "221e243e-3cc6-4e1b-a56f-f338ad6533a1",
+    "timestamp": 1768386020,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "Hello, admin!"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "admin_1768386028023_b55e515z4": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386028023_b55e515z4",
+    "timestamp": 1768386028,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386062854_fjckiczgr": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386062854_fjckiczgr",
+    "timestamp": 1768386062,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u4f1a\u8bf4\u4e2d\u6587\u5417\uff1f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386146107_zgz9m3tt9": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386146107_zgz9m3tt9",
+    "timestamp": 1768386146,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "b15a15ec-8f44-4bbb-b1df-2d5dcd00edca": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "b15a15ec-8f44-4bbb-b1df-2d5dcd00edca",
+    "timestamp": 1768386148,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "mentioned_agent_id": "admin",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u4f60\u597d\uff01\u6211\u4f1a\u8bf4\u4e2d\u6587\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "ff886d14-de75-47ac-88d8-b3f7cb850496": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "ff886d14-de75-47ac-88d8-b3f7cb850496",
+    "timestamp": 1768386159,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "783b7c38-3099-4682-a7bf-ac958631f75b",
+      "content": {
+        "text": "nice to meet you!"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "admin_1768386181675_ki92nzqx0": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386181675_ki92nzqx0",
+    "timestamp": 1768386181,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u538b\u529b\u597d\u5927"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "9f6b74ed-5cc1-4c15-b895-ffbc750cf990": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "9f6b74ed-5cc1-4c15-b895-ffbc750cf990",
+    "timestamp": 1768386194,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "channel_info",
+      "action": "list_channels"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "admin_1768386212839_tzwz0a6cy": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768386212839_tzwz0a6cy",
+    "timestamp": 1768386212,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "pitch-room",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386213591_8e2v7ftkc": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768386213591_8e2v7ftkc",
+    "timestamp": 1768386213,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "ideas",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386214242_im0artmt3": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768386214242_im0artmt3",
+    "timestamp": 1768386214,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "news-feed",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386214873_izdgkp9em": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768386214873_izdgkp9em",
+    "timestamp": 1768386214,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "discussion",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386216043_hegh7miy0": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768386216043_hegh7miy0",
+    "timestamp": 1768386216,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386348261_m2y2luose": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386348261_m2y2luose",
+    "timestamp": 1768386348,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u538b\u529b\u597d\u5927"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "79f9cfff-186e-4ad4-adba-6be35fefc0e9": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "79f9cfff-186e-4ad4-adba-6be35fefc0e9",
+    "timestamp": 1768386351,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "mentioned_agent_id": "admin",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u6211\u7406\u89e3\u4f60\u7684\u611f\u53d7\u3002\u8ba9\u6211\u4e3a\u4f60\u8fdb\u884c\u6df1\u5165\u5206\u6790\uff0c\u627e\u51fa\u89e3\u51b3\u65b9\u6848\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "admin_1768386410204_nttyd9btd": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386410204_nttyd9btd",
+    "timestamp": 1768386410,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "okay"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "5259616d-74cd-47b0-872e-6da53afc6a73": {
+    "event_name": "thread.channels.list",
+    "source_id": "daily-assistant",
+    "event_id": "5259616d-74cd-47b0-872e-6da53afc6a73",
+    "timestamp": 1768386412,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "channel_info",
+      "action": "list_channels"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "c427431a-4fac-4840-85fa-5bd541523371": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "c427431a-4fac-4840-85fa-5bd541523371",
+    "timestamp": 1768386417,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "mentioned_agent_id": "admin",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "nice to meet you too!"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "4cc619df-fcae-485b-8187-a9ccee5d557a": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "4cc619df-fcae-485b-8187-a9ccee5d557a",
+    "timestamp": 1768386417,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "mentioned_agent_id": "admin",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u5982\u679c\u4f60\u6709\u538b\u529b\u6216\u7126\u8651\uff0c\u662f\u5426\u9700\u8981\u6211\u7684\u652f\u6301\u548c\u5206\u6790\uff1f"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "7Hmnlx32dJMzXvc50KGTk3LPKSpPw5wedLngT20g8CGjSV07NrRXKP83yj7LPTwK",
+    "source_agent_group": "guest"
+  },
+  "admin_1768386451994_dv98o50wn": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386451994_dv98o50wn",
+    "timestamp": 1768386451,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u9700\u8981"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386680144_e4bdc5y2h": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386680144_e4bdc5y2h",
+    "timestamp": 1768386680,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u9700\u8981\u5206\u6790"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768386754891_4kot3oqug": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768386754891_4kot3oqug",
+    "timestamp": 1768386754,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "AVswJL20q8pzZdBpo5056d0e0k3BVkwgq3t4B56mqWVcfVMDrZnYYNWILDAx36NR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387211951_4vy96ys8y": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387211951_4vy96ys8y",
+    "timestamp": 1768387211,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387216069_u62mgewfb": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387216069_u62mgewfb",
+    "timestamp": 1768387216,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387240389_7tywie9ks": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387240389_7tywie9ks",
+    "timestamp": 1768387240,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello\uff1f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387281312_ad4h43kbb": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387281312_ad4h43kbb",
+    "timestamp": 1768387281,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u538b\u529b\u597d\u5927"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "f566b464-2da6-4964-965d-b3bbbac70ba5": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant-listener",
+    "event_id": "f566b464-2da6-4964-965d-b3bbbac70ba5",
+    "timestamp": 1768387282,
+    "source_type": "agent",
+    "destination_id": "analyst-agent",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "direct_message",
+      "target_agent_id": "analyst-agent",
+      "content": {
+        "text": "ANALYSIS_REQUEST|admin|general|general|\u6700\u8fd1\u538b\u529b\u597d\u5927"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "YR0lzv6Mir3w73Q7o7jzhFHrTnldcax6xcZ3cUexJ9hbx6XZYhvioZr5JQk649Z2",
+    "source_agent_group": "guest"
+  },
+  "admin_1768387359369_7wgvlmnin": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387359369_7wgvlmnin",
+    "timestamp": 1768387359,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387386624_f6xb5zeeu": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387386624_f6xb5zeeu",
+    "timestamp": 1768387386,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387389321_zmauh72xr": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "admin",
+    "event_id": "admin_1768387389321_zmauh72xr",
+    "timestamp": 1768387389,
+    "source_type": "agent",
+    "destination_id": "agent:daily-assistant",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "direct_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387394146_4z9emw0sj": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387394146_4z9emw0sj",
+    "timestamp": 1768387394,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387396239_fqkqppyzg": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387396239_fqkqppyzg",
+    "timestamp": 1768387396,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387397033_110n12tpq": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387397033_110n12tpq",
+    "timestamp": 1768387397,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant-listener",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387397896_qdvzmb3os": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387397896_qdvzmb3os",
+    "timestamp": 1768387397,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "analyst-agent",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387398696_6u0jhnh5c": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387398696_6u0jhnh5c",
+    "timestamp": 1768387398,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "creator-agent",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387400097_q68zprte8": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387400097_q68zprte8",
+    "timestamp": 1768387400,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387402031_5qb5dp8da": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387402031_5qb5dp8da",
+    "timestamp": 1768387402,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387404277_mprgh2dsk": {
+    "event_name": "thread.direct_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387404277_mprgh2dsk",
+    "timestamp": 1768387404,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "target_agent_id": "daily-assistant",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387407214_5fe01ed2x": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387407214_5fe01ed2x",
+    "timestamp": 1768387407,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "CPV8GtIFD30XpTXBRwVGBB9F7C7RwxZPGad2PaSSQeJakR0LpmzrMWnISXDVvo7b",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387494292_ra2tf8lj4": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387494292_ra2tf8lj4",
+    "timestamp": 1768387494,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "a9ncdE4muU5haIL29nP8yTf7AvA8ZyPfoWj9zal3mkOX7JgM9Bkls8SPO2Q1uOcR",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387498795_fvr8inr9p": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387498795_fvr8inr9p",
+    "timestamp": 1768387498,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "a9ncdE4muU5haIL29nP8yTf7AvA8ZyPfoWj9zal3mkOX7JgM9Bkls8SPO2Q1uOcR",
+    "source_agent_group": "admin"
+  },
+  "e6c78be2-2005-495a-909a-59e316c7bb9a": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "e6c78be2-2005-495a-909a-59e316c7bb9a",
+    "timestamp": 1768387501,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "quoted_text": "[Quoted message a5777c6c-5992-4993-ba66-5b02b383cdcf]",
+      "quoted_message_id": "a5777c6c-5992-4993-ba66-5b02b383cdcf",
+      "source_id": "daily-assistant",
+      "channel": "general",
+      "content": {
+        "text": "Hi, admin!"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "admin_1768387509077_3j1gziejz": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387509077_3j1gziejz",
+    "timestamp": 1768387509,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u538b\u529b\u597d\u5927"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "a9ncdE4muU5haIL29nP8yTf7AvA8ZyPfoWj9zal3mkOX7JgM9Bkls8SPO2Q1uOcR",
+    "source_agent_group": "admin"
+  },
+  "10b31151-76d7-4b02-9997-22710d8f5fde": {
+    "event_name": "thread.direct_message.send",
+    "source_id": "daily-assistant-listener",
+    "event_id": "10b31151-76d7-4b02-9997-22710d8f5fde",
+    "timestamp": 1768387510,
+    "source_type": "agent",
+    "destination_id": "analyst-agent",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "direct_message",
+      "target_agent_id": "analyst-agent",
+      "content": {
+        "text": "ANALYSIS_REQUEST|admin|general|general|\u6700\u8fd1\u538b\u529b\u597d\u5927"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "meMnhn1KBEQaaLXhK7lVMR6TpcIquNXaCVai5F6cg7k3dSlULh1avw1jQksgOXvF",
+    "source_agent_group": "guest"
+  },
+  "0a37a91b-24d4-4eea-9e7b-eb4ff39cc119": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "0a37a91b-24d4-4eea-9e7b-eb4ff39cc119",
+    "timestamp": 1768387534,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u7406\u89e3\u4f60\u7684\u538b\u529b! \u6211\u8fd9\u91cc\u4e3a\u4f60\u8fdb\u884c\u5206\u6790\u627e\u5230\u89e3\u51b3\u65b9\u6848\u3002"
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "quoted_text": "[Quoted message 75de0e49-21c4-47a3-98ad-1b378d1e40a4]",
+      "quoted_message_id": "75de0e49-21c4-47a3-98ad-1b378d1e40a4",
+      "source_id": "daily-assistant",
+      "mentioned_agent_id": "daily-assistant",
+      "channel": "general"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "51a28db0-0a37-440a-9f46-d298eadabda7": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "51a28db0-0a37-440a-9f46-d298eadabda7",
+    "timestamp": 1768387565,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "75de0e49-21c4-47a3-98ad-1b378d1e40a4",
+      "content": {
+        "text": "\u538b\u529b\u6e90\u662f\u4ec0\u4e48? \u6211\u6765\u4e3a\u4f60\u5206\u6790\u89e3\u51b3\u65b9\u6848\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "admin_1768387595803_a244iqruj": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387595803_a244iqruj",
+    "timestamp": 1768387595,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u5de5\u4f5c"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "a9ncdE4muU5haIL29nP8yTf7AvA8ZyPfoWj9zal3mkOX7JgM9Bkls8SPO2Q1uOcR",
+    "source_agent_group": "admin"
+  },
+  "34586382-fefb-4523-a705-290d7f61e72f": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "34586382-fefb-4523-a705-290d7f61e72f",
+    "timestamp": 1768387628,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u5de5\u4f5c\u662f\u538b\u529b\u6e90\u4e4b\u4e00\uff0c\u4f46\u4e5f\u53ef\u80fd\u662f\u6210\u957f\u7a7a\u95f4\u3002\u6211\u4eec\u6765\u5206\u6790\u4e00\u4e0b\u4f60\u7684\u538b\u529b\u6e90\u548c\u6210\u957f\u9886\u57df\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "admin_1768387642425_ckid6f1ax": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387642425_ckid6f1ax",
+    "timestamp": 1768387642,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u5de5\u4f5c\u5f88\u7d2f\uff0c\u6ca1\u6709\u6210\u957f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "a9ncdE4muU5haIL29nP8yTf7AvA8ZyPfoWj9zal3mkOX7JgM9Bkls8SPO2Q1uOcR",
+    "source_agent_group": "admin"
+  },
+  "2cf5b8e4-0045-4470-b91b-b805bd5fbb5f": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "2cf5b8e4-0045-4470-b91b-b805bd5fbb5f",
+    "timestamp": 1768387662,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_text": "[Quoted message a6a3eb88-924c-4f5d-80a9-0b012db31a35]",
+      "quoted_message_id": "a6a3eb88-924c-4f5d-80a9-0b012db31a35",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "a6a3eb88-924c-4f5d-80a9-0b012db31a35",
+      "content": {
+        "text": "\u538b\u529b\u6e90\u8fd8\u6709\u54ea\u4e9b"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "78ffeb17-a0b6-48fa-b84e-4a06a1794fbe": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "78ffeb17-a0b6-48fa-b84e-4a06a1794fbe",
+    "timestamp": 1768387676,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_text": "[Quoted message 51a28db0-0a37-440a-9f46-d298eadabda7]",
+      "quoted_message_id": "51a28db0-0a37-440a-9f46-d298eadabda7",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "51a28db0-0a37-440a-9f46-d298eadabda7",
+      "content": {
+        "text": "\u597d\u7684\uff0c\u6211\u4e3a\u4f60\u5206\u6790\u627e\u5230\u89e3\u51b3\u65b9\u6848\u3002"
+      },
+      "thread_level": 1
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "admin_1768387698701_tcjbs7g00": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387698701_tcjbs7g00",
+    "timestamp": 1768387698,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u7126\u8651\uff0c\u5931\u7720"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "a9ncdE4muU5haIL29nP8yTf7AvA8ZyPfoWj9zal3mkOX7JgM9Bkls8SPO2Q1uOcR",
+    "source_agent_group": "admin"
+  },
+  "729b5d97-1f3c-47b9-8e91-b03c101e60ed": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "729b5d97-1f3c-47b9-8e91-b03c101e60ed",
+    "timestamp": 1768387758,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u7406\u89e3\u4f60\u7684\u7126\u8651\u548c\u5931\u7720! \u60f3\u5fc5\u4f60\u5728\u538b\u529b\u4e0b\u611f\u5230\u5f88\u96be\u53d7\u3002"
+      },
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "quoted_text": "[Quoted message 55666e10-5d78-4844-a013-fa1685eedfe7]",
+      "quoted_message_id": "55666e10-5d78-4844-a013-fa1685eedfe7",
+      "source_id": "daily-assistant",
+      "mentioned_agent_id": "daily-assistant",
+      "channel": "general"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "admin_1768387781641_2wv536ml4": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387781641_2wv536ml4",
+    "timestamp": 1768387781,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u7ecf\u5e38\u52a0\u73ed\u5230\u5f88\u665a\uff0c\u611f\u89c9\u5f88\u7126\u8651"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "a9ncdE4muU5haIL29nP8yTf7AvA8ZyPfoWj9zal3mkOX7JgM9Bkls8SPO2Q1uOcR",
+    "source_agent_group": "admin"
+  },
+  "0c82d3a1-20d1-4bd9-bd8e-b951d9f806cd": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "0c82d3a1-20d1-4bd9-bd8e-b951d9f806cd",
+    "timestamp": 1768387800,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_text": "[Quoted message 55666e10-5d78-4844-a013-fa1685eedfe7]",
+      "quoted_message_id": "55666e10-5d78-4844-a013-fa1685eedfe7",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "55666e10-5d78-4844-a013-fa1685eedfe7",
+      "content": {
+        "text": "\u538b\u529b\u3001\u5931\u7720\u548c\u7126\u8651\u662f\u4e00\u79cd\u5e38\u89c1\u7684\u60c5\u51b5\u3002\u60f3\u5fc5\u4f60\u5df2\u7ecf\u91c7\u53d6\u4e86\u4e00\u4e9b\u81ea\u52a9\u65b9\u6cd5\u4e86\u3002\u5982\u679c\u9700\u8981\u6211\u53ef\u4ee5\u7ed9\u4f60\u63d0\u4f9b\u4e00\u4e9b\u5efa\u8bae\u6216\u8005\u5efa\u8bae\u4f60\u53bb\u770b\u533b\u751f\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "dMlk1xgUFkROsAqHJXOBElN7ae9YUUXcfWkLikMHXLsfrYOCNROKMRwIJcNVtHyl",
+    "source_agent_group": "guest"
+  },
+  "admin_1768387906573_fepjrf5q5": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768387906573_fepjrf5q5",
+    "timestamp": 1768387906,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "0JLL0WohHCWagtRwNzdmbs62FGKYoXdiX870C3Yh4BjEcq6uQNhCxFbFCCUIGLWC",
+    "source_agent_group": "admin"
+  },
+  "admin_1768387910149_7s2snf2vh": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768387910149_7s2snf2vh",
+    "timestamp": 1768387910,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "0JLL0WohHCWagtRwNzdmbs62FGKYoXdiX870C3Yh4BjEcq6uQNhCxFbFCCUIGLWC",
+    "source_agent_group": "admin"
+  },
+  "86488f6a-1497-4550-b67b-21a16c70908a": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "86488f6a-1497-4550-b67b-21a16c70908a",
+    "timestamp": 1768387913,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "relevant_agent_id": "daily-assistant",
+      "message_type": "channel_message",
+      "channel": "general",
+      "mentioned_agent_id": "admin",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u4f60\ub3c4\u597d\uff01"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "RHQkwhlTB643qNgFldSlkJjJ9GTMEXncI31ZYbpyaED7GwfBurXWmoscysXCrcGV",
+    "source_agent_group": "guest"
+  },
+  "admin_1768392773137_etwytyx7s": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768392773137_etwytyx7s",
+    "timestamp": 1768392773,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XCADofudLCTHIvfcpZFFeoPulVptEw2wn2rpIKvpTKuohUuKLWgkaA6sVTpES2Ym",
+    "source_agent_group": "admin"
+  },
+  "admin_1768392773183_mn5arj3zw": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768392773183_mn5arj3zw",
+    "timestamp": 1768392773,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "XCADofudLCTHIvfcpZFFeoPulVptEw2wn2rpIKvpTKuohUuKLWgkaA6sVTpES2Ym",
+    "source_agent_group": "admin"
+  },
+  "admin_1768392792539_tsyxhe7mb": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768392792539_tsyxhe7mb",
+    "timestamp": 1768392792,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "admin_1768392792600_m0yyhiww0": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768392792600_m0yyhiww0",
+    "timestamp": 1768392792,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "admin_1768392796112_u36fb5qec": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768392796112_u36fb5qec",
+    "timestamp": 1768392796,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4f60\u597d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "admin_1768392804163_fpxev13p5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768392804163_fpxev13p5",
+    "timestamp": 1768392804,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "hello\uff1f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "c96ad4b6-3601-41a9-ade8-4f5887267eeb": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "c96ad4b6-3601-41a9-ade8-4f5887267eeb",
+    "timestamp": 1768392806,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_message_id": "79d624e4-c13e-402b-8bc4-3237d41f9f18",
+      "quoted_text": "[Quoted message 79d624e4-c13e-402b-8bc4-3237d41f9f18]",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "79d624e4-c13e-402b-8bc4-3237d41f9f18",
+      "content": {
+        "text": "\u4f60\u597d\uff01\u6211\u662f\u4f60\u7684\u65e5\u5e38\u52a9\u7406\uff0c\u6709\u4ec0\u4e48\u53ef\u4ee5\u5e2e\u52a9\u4f60\u7684\u5417\uff1f"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768392818503_u0sntsx9o": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768392818503_u0sntsx9o",
+    "timestamp": 1768392818,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u611f\u89c9\u5f88\u7126\u8651"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "bfc30051-8ac8-476b-8360-0de5574e8b7b": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "bfc30051-8ac8-476b-8360-0de5574e8b7b",
+    "timestamp": 1768392821,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "53ca7b8e-b9e2-4c45-bcaf-8ee24c018ad9",
+      "content": {
+        "text": "\u6211\u7406\u89e3\u4f60\u7684\u611f\u53d7\u3002\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u611f\u89ba\u5f88\u7126\u8651\u662f\u5f88\u6b63\u5e38\u7684\u3002\u5982\u679c\u4f60\u613f\u610f\u5206\u4eab\u66f4\u591a\u4f60\u7684\u611f\u53d7\u548c\u58d3\u529b\u7684\u6765\u6e90\uff0c\u6211\u53ef\u4ee5\u8a66\u8457\u5e6b\u52a9\u4f60\u627e\u51fa\u89e3\u51b3\u65b9\u6cd5\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768392860887_w87lxjjn6": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768392860887_w87lxjjn6",
+    "timestamp": 1768392860,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u5931\u7720\uff0c\u7126\u8651"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "74a90170-1896-40d0-a7ef-66bf9fb13bae": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "74a90170-1896-40d0-a7ef-66bf9fb13bae",
+    "timestamp": 1768392863,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_message_id": "40bc6f5b-95ca-45a2-b4c8-56fc0f361c89",
+      "quoted_text": "[Quoted message 40bc6f5b-95ca-45a2-b4c8-56fc0f361c89]",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "40bc6f5b-95ca-45a2-b4c8-56fc0f361c89",
+      "content": {
+        "text": "\u6211\u7406\u89e3\u4f60\u7684\u611f\u53d7\u3002\u5931\u7720\u548c\u7126\u8651\u662f\u538b\u529b\u7684\u5e38\u89c1\u8868\u73b0\u3002\u5982\u679c\u4f60\u613f\u610f\uff0c\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u63a2\u7d22\u4e00\u4e9b\u7f13\u89e3\u538b\u529b\u7684\u65b9\u6cd5\u548c\u6280\u5de7\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768392871992_7bit238ib": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768392871992_7bit238ib",
+    "timestamp": 1768392871,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u613f\u610f"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "661438a8-a994-49ff-8a35-1699dbd75f48": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "661438a8-a994-49ff-8a35-1699dbd75f48",
+    "timestamp": 1768392898,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "5a41801d-7aa0-44b6-b47d-1c6d9730ffd1",
+      "content": {
+        "text": "\u6211\u7406\u89e3\u4f60\u7684\u611f\u53d7\u3002\u8ba9\u6211\u4e3a\u4f60\u8fdb\u884c\u6df1\u5165\u5206\u6790\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "8536835e-a6dd-4030-bd20-17c9f06550f8": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "8536835e-a6dd-4030-bd20-17c9f06550f8",
+    "timestamp": 1768392898,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "5a41801d-7aa0-44b6-b47d-1c6d9730ffd1",
+      "content": {
+        "text": "\ud83d\udcca **\u6df1\u5ea6\u5206\u6790**\n\ud83d\udca1 **\u5173\u952e\u6d1e\u5bdf\uff1a**\n1. \u4f60\u6700\u8fd1\u5de5\u4f5c\u538b\u529b\u5f88\u5927\uff0c\u611f\u89ba\u5f88\u7126\u8651\n2. \u4f60\u51fa\u73b0\u4e86\u5931\u7720\u548c\u7126\u8651\u7684\u75c7\u72b6\n3. \u4f60\u613f\u610f\u63a5\u53d7\u5e2e\u52a9\u548c\u5efa\u8bae\n\ud83c\udfaf **\u4e2a\u6027\u5316\u884c\u52a8\u8ba1\u5212\uff1a\u7f13\u89e3\u538b\u529b**\n\ud83d\udcdd \u672c\u8ba1\u5212\u65e8\u5728\u5e2e\u52a9\u4f60\u901a\u8fc7\u7ba1\u7406\u538b\u529b\u548c\u6539\u5584\u7761\u7720\u8d28\u91cf\u6765\u51cf\u5c11\u7126\u8651\u3002\n\ud83d\udccb **\u884c\u52a8\u6b65\u9aa4\uff1a**\n1. \u6bcf\u5929\u8fdb\u884c30\u5206\u949f\u7684\u904b\u52d5\uff08\u6642\u9593\u6846\u67b6\uff1a\u6bcf\u5929\uff09\n   \ud83d\udca1 \u9884\u671f\u6548\u679c\uff1a\u6539\u5584\u5fc3\u60c5\u548c\u51cf\u8f7b\u538b\u529b\n2. \u5b66\u4e60\u548c\u5b9e\u8df5\u653e\u677e\u6280\u5de7\uff0c\u5982\u6df1\u547c\u5438\u6216\u51a5\u60f3\uff08\u6642\u9593\u6846\u67b6\uff1a\u6bcf\u5468\uff09\n   \ud83d\udca1 \u9884\u671f\u6548\u679c\uff1a\u964d\u4f4e\u7126\u8651\u548c\u6539\u5584\u7761\u7720\u8d28\u91cf\n3. \u5c1d\u8bd5\u5199\u65e5\u8bb0\u8bb0\u5f55\u4f60\u7684\u611f\u53d7\u548c\u60f3\u6cd5\uff08\u6642\u9593\u6846\u67b6\uff1a\u6bcf\u5929\uff09\n   \ud83d\udca1 \u9884\u671f\u6548\u679c\uff1a\u66f4\u597d\u5730\u4e86\u89e3\u81ea\u5df1\u548c\u7ba1\u7406\u60c5\u7eea\n\u2728 **\u6210\u529f\u6307\u6807\uff1a**\n\u5982\u679c\u4f60\u80fd\u591f\u8fde\u7eed\u4e00\u5468\u6bcf\u5929\u9032\u884c\u904b\u52d5\u3001\u7ec3\u4e60\u653e\u677e\u6280\u5de7\u548c\u5199\u65e5\u8bb0\uff0c\u5e76\u4e14\u611f\u5230\u538b\u529b\u548c\u7126\u8651\u6709\u6240\u51cf\u8f7b\uff0c\u90a3\u9ebc\u9019\u500b\u8ba1\u5212\u5c31\u662f\u6210\u529f\u7684\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768392898570_zldhlunqw": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768392898570_zldhlunqw",
+    "timestamp": 1768392898,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u5feb\u5e2e\u6211"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "d6b89d02-53f9-4936-ad9b-801e93d8120c": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "d6b89d02-53f9-4936-ad9b-801e93d8120c",
+    "timestamp": 1768392948,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_message_id": "85bc22ed-dac8-4ba6-b5e5-c04f4bf60d41",
+      "quoted_text": "[Quoted message 85bc22ed-dac8-4ba6-b5e5-c04f4bf60d41]",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "85bc22ed-dac8-4ba6-b5e5-c04f4bf60d41",
+      "content": {
+        "text": "\u6211\u7406\u89e3\u4f60\u9700\u8981\u5feb\u901f\u5e2e\u52a9\u3002\u57fa\u4e8e\u4e4b\u524d\u7684\u5bf9\u8bdd\uff0c\u6211\u5efa\u8bae\u4f60\u5c1d\u8bd5\u8fdb\u884c\u4e00\u4e9b\u6df1\u547c\u5438\u7ec3\u4e60\u6765\u7acb\u5373\u7f13\u89e3\u538b\u529b\u3002\u4f60\u53ef\u4ee5\u8ddf\u7740\u6211\u4e00\u8d77\u6df1\u547c\u5438\uff1a\u6162\u6162\u5730\u5438\u6c14\uff0c\u6301\u7e8c\u51e0\u79d2\u949f\uff0c\u7136\u540e\u6162\u6162\u5730\u547c\u6c14\u3002\u8ba9\u6211\u4eec\u4e00\u8d77\u505a\u51e0\u6b21\uff0c\u611f\u53d7\u4e00\u4e0b\u662f\u5426\u80fd\u5e2e\u52a9\u4f60\u653e\u677e\u4e0b\u6765\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768392968348_yt51wonft": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768392968348_yt51wonft",
+    "timestamp": 1768392968,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u73b0\u5728\u597d\u591a\u4e86"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "c624f4ec-a9b4-40f6-ae1a-db9e8a99f753": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "c624f4ec-a9b4-40f6-ae1a-db9e8a99f753",
+    "timestamp": 1768393001,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_message_id": "fd07be20-f395-4194-856a-e83efdca7c93",
+      "quoted_text": "[Quoted message fd07be20-f395-4194-856a-e83efdca7c93]",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "fd07be20-f395-4194-856a-e83efdca7c93",
+      "content": {
+        "text": "\u5f88\u9ad8\u5174\u542c\u5230\u4f60\u611f\u89c9\u597d\u591a\u4e86\uff01\u4e4b\u524d\u6211\u4eec\u8ba8\u8bba\u7684\u7f13\u89e3\u538b\u529b\u7684\u8ba1\u5212\u548c\u6280\u5de7\u662f\u5426\u5bf9\u4f60\u6709\u5e2e\u52a9\uff1f\u5982\u679c\u9700\u8981\u8fdb\u4e00\u6b65\u7684\u652f\u6301\u6216\u6709\u4efb\u4f55\u65b0\u7684\u95ee\u9898\uff0c\u8bf7\u4e0d\u8981\u72b9\u8c6b\u544a\u8bc9\u6211\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768393025246_gbtbsahwh": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768393025246_gbtbsahwh",
+    "timestamp": 1768393025,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u6765\u5e2e\u6211\u505a\u660e\u5929\u7684\u8ba1\u5212\u5427"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "642b2a8d-e1c1-4977-ae1f-7fb7cc7980f2": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "daily-assistant",
+    "event_id": "642b2a8d-e1c1-4977-ae1f-7fb7cc7980f2",
+    "timestamp": 1768393057,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "message_type": "channel_message",
+      "relevant_agent_id": "daily-assistant",
+      "mentioned_agent_id": "admin",
+      "source_id": "daily-assistant",
+      "content": {
+        "text": "\u597d\u7684\uff0c\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u505a\u660e\u5929\u7684\u8ba1\u5212\u3002\u9996\u5148\uff0c\u6211\u4eec\u9700\u8981\u786e\u5b9a\u660e\u5929\u7684\u76ee\u6807\u548c\u4efb\u52a1\u3002\u4f60\u53ef\u4ee5\u544a\u8bc9\u6211\uff0c\u4f60\u660e\u5929\u9700\u8981\u5b8c\u6210\u4ec0\u4e48\u4e8b\u60c5\u5417\uff1f"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768393145041_aehci1ifn": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768393145041_aehci1ifn",
+    "timestamp": 1768393145,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u597d\u50cf\u6ca1\u4ec0\u4e48\u4efb\u52a1\uff0c\u4f11\u606f\u548c\u4e0a\u73ed"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "063d1b53-6662-4867-a6d8-78ffefc04aa3": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "063d1b53-6662-4867-a6d8-78ffefc04aa3",
+    "timestamp": 1768393148,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "reply_message",
+      "quoted_message_id": "0fd4c227-dc38-429b-a01d-e34397680bab",
+      "quoted_text": "[Quoted message 0fd4c227-dc38-429b-a01d-e34397680bab]",
+      "channel": "general",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "0fd4c227-dc38-429b-a01d-e34397680bab",
+      "content": {
+        "text": "\u65e2\u7136\u4f60\u660e\u5929\u6ca1\u6709\u592a\u591a\u4efb\u52a1\uff0c\u90a3\u4e48\u6211\u4eec\u53ef\u4ee5\u4e13\u6ce8\u4e8e\u89c4\u5212\u4e00\u4e2a\u653e\u677e\u548c\u9ad8\u6548\u7684\u4e00\u5929\u3002\u9996\u5148\uff0c\u4f60\u53ef\u4ee5\u5728\u65e9\u6668\u8fdb\u884c\u4e00\u4e9b\u8f7b\u677e\u7684\u8fd0\u52a8\u6216\u8005\u662f\u51a5\u60f3\u6765\u5f00\u59cb\u4f60\u7684\u65b0\u7684\u4e00\u5929\u3002\u8fd9\u53ef\u4ee5\u5e2e\u52a9\u4f60\u6e05\u9192\u5934\u8111\uff0c\u66f4\u52a0\u96c6\u4e2d\u6ce8\u610f\u529b\u3002\u53e6\u5916\uff0c\u4f60\u4e5f\u53ef\u4ee5\u5c1d\u8bd5\u628a\u4e00\u4e9b\u5c0f\u4efb\u52a1\u6216\u662f\u4e2a\u4eba\u9879\u76ee\u5b89\u6392\u5230\u8fd9\u4e00\u5929\uff0c\u907f\u514d\u8ba9\u81ea\u5df1\u611f\u5230\u592a\u8fc7\u7a7a\u95f2\u6216\u662f\u65e0\u804a\u3002\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5236\u5b9a\u4e00\u4e2a\u7b80\u5355\u7684\u65e5\u7a0b\uff0c\u786e\u4fdd\u4f60\u65e2\u80fd\u4f11\u606f\u53c8\u80fd\u4fdd\u6301\u751f\u4ea7\u529b\u3002\u4f60\u89c9\u5f97\u600e\u4e48\u6837?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768393164525_geyst757s": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768393164525_geyst757s",
+    "timestamp": 1768393164,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u4e0d\u9519"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "0d5f7c74-a5af-470b-be1c-48aaeae7f335": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "0d5f7c74-a5af-470b-be1c-48aaeae7f335",
+    "timestamp": 1768393179,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "fbd7cff1-6c0a-47c1-8fde-b2e6f4b2540d",
+      "content": {
+        "text": "\u65e2\u7136\u4f60\u611f\u89c9\u4e0d\u9519\uff0c\u6211\u4eec\u53ef\u4ee5\u5f00\u59cb\u8ba1\u5212\u4f60\u7684\u660e\u5929\u4e86\u3002\u65e9\u6668\u8fdb\u884c\u4e00\u4e9b\u8f7b\u677e\u7684\u8fd0\u52a8\u6216\u8005\u662f\u51a5\u60f3\u6765\u5f00\u59cb\u4f60\u7684\u65b0\u7684\u4e00\u5929\u53ef\u4ee5\u5e2e\u52a9\u4f60\u6e05\u9192\u5934\u8111\uff0c\u66f4\u52a0\u96c6\u4e2d\u6ce8\u610f\u529b\u3002\u4e0b\u5348\u4f60\u53ef\u4ee5\u5b89\u6392\u4e00\u4e9b\u5c0f\u4efb\u52a1\u6216\u662f\u4e2a\u4eba\u9879\u76ee\uff0c\u907f\u514d\u8ba9\u81ea\u5df1\u611f\u5230\u592a\u8fc7\u7a7a\u95f2\u6216\u662f\u65e0\u804a\u3002\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5236\u5b9a\u4e00\u4e2a\u7b80\u5355\u7684\u65e5\u7a0b\uff0c\u786e\u4fdd\u4f60\u65e2\u80fd\u4f11\u606f\u53c8\u80fd\u4fdd\u6301\u751f\u4ea7\u529b\u3002\u4f60\u89c9\u5f97\u600e\u4e48\u6837?"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768393196609_u39mxjr0m": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "admin",
+    "event_id": "admin_1768393196609_u39mxjr0m",
+    "timestamp": 1768393196,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "content": {
+        "text": "\u53ef\u4ee5\uff0c\u5f00\u59cb\u8ba1\u5212\u5427"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cg1KjXdFIHCXWZYBWGPDkt01dU4NQsvuX37q2QXlTc1dMG65DprYTYK1WxgzMFxK",
+    "source_agent_group": "admin"
+  },
+  "8f43b601-7aa7-4a85-9ca9-5eadf11f034c": {
+    "event_name": "thread.reply.post",
+    "source_id": "daily-assistant",
+    "event_id": "8f43b601-7aa7-4a85-9ca9-5eadf11f034c",
+    "timestamp": 1768393244,
+    "source_type": "agent",
+    "destination_id": "channel:general",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "message_type": "reply_message",
+      "sender_id": "daily-assistant",
+      "reply_to_id": "8dd9dbe0-3348-4915-a580-80918ae7271e",
+      "content": {
+        "text": "\u65e2\u7136\u4f60\u5df2\u7ecf\u51c6\u5907\u597d\u5f00\u59cb\u8ba1\u5212\u4e86\uff0c\u6211\u4eec\u53ef\u4ee5\u5148\u786e\u5b9a\u660e\u5929\u7684\u76ee\u6807\u662f\u4ec0\u4e48\u3002\u4f60\u5e0c\u671b\u901a\u8fc7\u660e\u5929\u7684\u8ba1\u5212\u6765\u5b9e\u73b0\u4ec0\u4e48\u5177\u4f53\u7684\u76ee\u6807\u5462\uff1f\u662f\u63d0\u9ad8\u751f\u4ea7\u529b\u3001\u653e\u677e\u8eab\u5fc3\uff0c\u8fd8\u662f\u6709\u5176\u4ed6\u7684\u76ee\u6807\uff1f\u8ba9\u6211\u4eec\u660e\u786e\u4f60\u7684\u9700\u6c42\uff0c\u8fd9\u6837\u6211\u4eec\u53ef\u4ee5\u5236\u5b9a\u4e00\u4e2a\u66f4\u52a0\u5177\u4f53\u548c\u6709\u9488\u5bf9\u6027\u7684\u8ba1\u5212\u3002"
+      }
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "uD6r22eqmVF0qNXgWJ01Vf5NIO71GfZtwUroJQLebtFdH65HtpYAWUm23ggDV2J3",
+    "source_agent_group": "guest"
+  },
+  "admin_1768398713782_60ct2atbm": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "admin",
+    "event_id": "admin_1768398713782_60ct2atbm",
+    "timestamp": 1768398713,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "general",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "N6tpuNikAv0zkM273DahIFrDnPDcBC8JQDEaVvGZ5saUALpgvSUGx7lxAgMoFvjg",
+    "source_agent_group": "admin"
+  }
+}
